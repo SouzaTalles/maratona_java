@@ -1,7 +1,5 @@
 package maratonajava.introducao;
 
-import java.util.jar.JarOutputStream;
-
 public class Aula05EstruturasCondicionais06 {
     public static void main(String[] args) {
         // Utilizando switch e Dado os valores de 1 a 7, imprima se é dia útil ou final de semana
