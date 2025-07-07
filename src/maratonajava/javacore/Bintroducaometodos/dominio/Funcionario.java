@@ -1,14 +1,20 @@
 package maratonajava.javacore.Bintroducaometodos.dominio;
 
-public class Estudante {
+public class Funcionario {
     public String nome;
     public int idade;
-    public char sexo;
+    public double[] salarios;
 
     public void imprime() {
         System.out.println("------------------");
         System.out.println(this.nome);
         System.out.println(this.idade);
-        System.out.println(this.sexo);
+
+        if (salarios != null) {
+            for (double salario : salarios) {
+                System.out.print(salario + " ");
+            }
+            System.out.println("");
+        }
     }
 }
