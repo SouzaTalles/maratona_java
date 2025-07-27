@@ -1,0 +1,31 @@
+Na associação usamos o "Tem", que "tem" um relacionamento.
+
+Na herança usamos o "É um", não tem uma relacionamento, pois ele "É" uma coisa
+
+public class Funcionario extends Pessoa.
+O "extends pessoa" pessoa pega todas as variáveis de pessoas e coloca em Funcionários
+
+Herança múltipla não existe no java.
+
+O "Protected" da acesso direto direto aos atributos a qualquer sub-classe em qualquer
+pacote como se tivesse os atributos na classe.
+Todas a classes que estiverem no mesmo pacote também terão acesso aos atributos como se fossem públicos.
+
+Regra dos construtores na herança:
+Se tiver um construtor na super-classe/classe-mae e não existir um outro construtor
+na sub-classe
+
+Todas as vezes que for adicionada um construtor na classe mãe, e esse construtor tem argumentos,
+obrigatoriamente é preciso alterar em todas as classes filas
+
+Sequencia de inicialização:
+    // 0 - Bloco de inicialização estático da superclasse é executado quando a JVM carregar a classe pai
+    // 1 - Bloco de inicialização estático da sub lasse é executado quando a JVM carregar a classe filha
+    // 2 - alocado espaço em memória para o objeto da superclasse
+    // 3 - cada atributo de superclasse é criado e inicializado com valores default ou quer for passado
+    // 4 - bloco de inicialização da superclasse é executado na ordem que aparece
+    // 5 - construtor da superclasse é executado
+    // 6 - alocado espaço em memória para o objeto da subclasse
+    // 7 - cada atributo de subclasse é criado e inicializado com valores default ou quer for passado
+    // 8 - bloco de inicialização da subclasse é executado na ordem que aparece
+    // 9 - construtor da subclasse é executado
