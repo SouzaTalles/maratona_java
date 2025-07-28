@@ -1,0 +1,14 @@
+Existem atributos que não quero que sejam modificados, eles são chamados de constante
+Para falar que é uma constante tem que colocar a palavra "final"
+Convenção para as constantes no java:
+- Tudo em capslock
+- Quando no nome tiver mais de uma palavra elas são separadas por "_"
+Vai está associdada ao "static"
+< private static final >
+
+Quando não quer a classe seja estendida é colocado o "final"
+< public final class >
+
+Quando não quer que o comportamento do método seja alterado
+ou que ele seja sobrecarregado usa o "final"
+< public final void >

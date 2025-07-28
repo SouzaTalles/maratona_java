@@ -1,0 +1,7 @@
+Regras da sobre escrita:
+- O nome tem ser exatamente o mesmo
+- Ter os mesmos parâmetros
+- O tipo de retorno tem que ser a classe ou alguma subclasse
+- O modificador de acesso nunca pode ser mais restritivo
+
+Pra ter certeza que está sobrescrevendo adiciona o "@Overrride"
