@@ -6,7 +6,7 @@ Convenção para as constantes no java:
 Vai está associdada ao "static"
 < private static final >
 
-Quando não quer a classe seja estendida é colocado o "final"
+Quando não quer que a classe seja estendida é colocado o "final"
 < public final class >
 
 Quando não quer que o comportamento do método seja alterado

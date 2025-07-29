@@ -1,0 +1,10 @@
+O "abstract" em classes significa que ela não pode ser instânciada
+
+No método significa que o método não pode ter corpo
+
+Classes abstratas podem ter métodos abstratos ou podem ter métodos concretos,
+mas nunca se tem um método abstrato em uma classe concreta
+
+Não pode ter múltiplas heranças de classes, mas pode ter uma hierarquia maior
+com avô, bisavô, tataravô.
+

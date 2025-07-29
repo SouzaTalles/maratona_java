@@ -1,0 +1,19 @@
+Na criação de interface não é utilizado o public class e sim o public interface
+
+Por padrão tem todos os métodos por padrão com public abstract
+
+Nas INTERFACES todos os métodos são públicos e abstratos, então não precisa colocar na hora de declarar
+
+Quando tiver trabalhando com INTERFACES é utilizado o "implements"
+
+Uma vantagem é que pode prover implementação para múltiplas de interfaces em uma mesma classe
+
+Vantagem da interface, é que em uma classe pode ter mais de uma interface implementando nela
+
+Com o "default" pode colocar/criar métodos concretos com funcionalidade dentro das interfaces
+
+ORDENS DOS MODIFICADORES DE ACESSO DO MAIS RESTRITIVO PARA O MAIS LIBERAL:
+- private -> default -> protected -> public
+
+É possível criar atributos nas interfaces, por padrão todas os atributos são constantes,
+então não é necessário colocar o "public static final" na hora de declarar
