@@ -1,0 +1,5 @@
+Arquitetura NVC:
+Separa a regra de negócio do domínio e do que vai ser visualizado
+- Regra de negócio
+- Domínio
+- Visualização
