@@ -3,8 +3,6 @@ package maratonajava.javacore.Npolimorfismo.servico;
 import maratonajava.javacore.Npolimorfismo.dominio.Produto;
 import maratonajava.javacore.Npolimorfismo.dominio.Tomate;
 
-import java.sql.SQLOutput;
-
 public class CalculadoraImposto {
     public static void calcularImposto(Produto produto) {
         System.out.println("Relatorio de imposto");
