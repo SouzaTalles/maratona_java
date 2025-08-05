@@ -1,0 +1,38 @@
+Throwable é a classe onde fica tudo de ruim que pode acontecer no java
+como filha ela tem o "Error" e "Exception"
+
+
+ERROR
+StackOverflowError, acontece quando estoura a mémoria disponível para a stack do java
+
+Error é algo que acontece na JVM que provavelmente não vai ser possível recuperar em tempo de execução.
+Como solução basta arrumar o código e executar novamente
+
+Exceções
+Importante!!
+- exception checked: são exceções que são filhas da classe Exception diretamente,
+se não tratadas vão lançar um error em tempo de compilação.
+É obrigatório tratar.
+
+- exception unchecked: são incluindo RuntimeException e suas filhas (ou pra baixo na imagem),
+quando lançadas pelo programa quase 100% das vezes o erro é do programador.
+Não é obrigatório tratar.
+
+Para tratar as exception checked é usado o:
+Try {
+    Aqui vai o método a ser tratado
+} catch (Aqui vai o tipo de exceção, quanto mais específico melhor) {
+    Nuca deixar esse bloco em branco
+    // e.printStackTrace();
+}
+
+Não colocar regra de négocio dentro do catch
+
+Deu alguma Exceção, para de fazer pergunta, copia a linha que idêntifica a exceção e cola no google e lê.
+
+Desenvolvedores que sabem resolver problemas são os que tem maior chance no mercado, os que brilham, que querem contratar.
+
+
+
+
+
