@@ -32,6 +32,31 @@ Deu alguma Exceção, para de fazer pergunta, copia a linha que idêntifica a ex
 
 Desenvolvedores que sabem resolver problemas são os que tem maior chance no mercado, os que brilham, que querem contratar.
 
+Para lançar exceções usa o "throw new e a exceção que vai ser lançada"
+Usando isso não é preciso usar o try{}catch{}
+Exemplo:
+      if(b == 0)
+          throw new RuntimeException("Argumento ilegal, não pode ser zero");
+      }
+Usar as exceções mais especificas possíveis
+Deve tratar a exceção que é enviada na main para o código não para de funcionar
+
+Prós e contras de fazer o tratamento com try {} catch {}
+Pró: Como tá sendo feito um tratamento de exceção o código não vai parar
+contra: A pessoa que tá chamando o método tecnicamente não tem a opção de fazer o tratamento do jeito dele
+
+Quando se deve usar o throws IOException ou o try catch?
+quando ta criando um método privado normalmente usado o try catch, pq o método privado ninguém vai chamar esse método e não faz sentido mandar para o próximo.
+se não será usado o throws IOException
+
+Outra forma de fazer é usar o try catch e relançar a exceção
+Exemplo dentro exception/test/ExceptionTest03
+
+try-catch-finally é um bloco de código que o finally sempre vai ser executado independente de qualquer coisa
+O finally é utilizado quando quando é preciso trabalhar com recursos sendo liberadas por outras aplicações quem precisam ser fechada após o uso
+
+É permitido usar o try-finally, sem o catch e não é permitido usar apenas o try
+Usando o try-finally, como a exceção não está sendo tratada, será preciso tratar ela na classe main
 
 
 

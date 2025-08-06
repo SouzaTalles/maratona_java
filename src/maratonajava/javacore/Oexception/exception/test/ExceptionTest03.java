@@ -3,21 +3,22 @@ package maratonajava.javacore.Oexception.exception.test;
 import java.io.File;
 import java.io.IOException;
 
-public class ExceptionTest01 {
-    public static void main(String[] args) {
+public class ExceptionTest03 {
+    public static void main(String[] args) throws IOException {
         criarNovoArquivo();
     }
 
     /**
-     * Como o método é privado é usado o try{}catch{}
+     * Nesse método tá acontenco uma hibridização entre o try catch e throw IOException
      */
-    private static void criarNovoArquivo() {
+    public static void criarNovoArquivo() throws IOException{
         File file = new File("arquivo\\test.txt");
         try {
             boolean isCriado = file.createNewFile();
             System.out.println("Arquivo criado: " + isCriado);
         } catch (IOException e) {
             e.printStackTrace();
+            throw e;
         }
     }
 }
