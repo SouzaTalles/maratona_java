@@ -58,6 +58,38 @@ O finally é utilizado quando quando é preciso trabalhar com recursos sendo lib
 É permitido usar o try-finally, sem o catch e não é permitido usar apenas o try
 Usando o try-finally, como a exceção não está sendo tratada, será preciso tratar ela na classe main
 
+multi-catchs
+Para tratar múltiplas exceções usa o try com vários catchs
+REGRAS:
+- Não é permitido colocar um tipo mais genérico a frente dos outros chaths
+(exceções mais genéricas sempre no final)
+- Quando coloca um multi-catchs com várias exceções tá praticamente transformando a variável "e" em uma final
+É permitido colocar exceções que não estão na mesma linha de herança, separados por pipes
+Exemplos RumtimeExceptionTest03
 
+Try with Resources
+   try (Declara a variável e instancia o objeto) {
 
+   }catch (exceção e) {
+
+   }
+O try com recursos tá se carregando de fechar a conexão dessa variável de referencia,
+com isso tem uma regra que só pode colocar objetos dentro do try with Resources que implementem Closeable ou AutoCloseable
+É possível usar mais de um objeto de uma vez no try with Resources
+obs: a ordem de fechamento é feito na ordem inversa
+Quando tá trabalhando com o try with Resources pode tirar o catch, mas é obrigado a colocar o throws
+"...Apesar de que... um Try sem Catch é tipo um Romeu sem Julieta né mano..." Dojo, Dev 2021 06:45""
+
+Exceções customizadas
+todas as exceções terminam o nome com exception
+
+Sobrescrita de métodos com exceções
+Regras:
+- Quando se está sobrescrevendo um método, não é obrigatório declarar as mesmas exceções daquele método,
+pois a funcionalidade da sobrescrita pode ser completamente diferente, e não lança exceção
+- é permitido lançar uma ou todas as exceções do método original
+- Pode adicionar qualquer exceção do tipo unchecked, filhas de Runtime
+- Não pode adicionar exceções mais genéricas do que foram declarados no método original ou do tipo checked
+- Mas pode adicionar exceções mais especificas do que as que estão no método original
+- não pode adicionar nenhuma exceção do tipo checked que não foi declarada no método original
 
