@@ -2,7 +2,7 @@ Na associação usamos o "Tem", que "tem" um relacionamento.
 
 Na herança usamos o "É um", não tem uma relacionamento, pois ele "É" uma coisa
 
-public class Funcionario extends Pessoa.
+public class Funcionário extends Pessoa.
 O "extends pessoa" pessoa pega todas as variáveis de pessoas e coloca em Funcionários
 
 Herança múltipla não existe no java.

@@ -1,0 +1,29 @@
+O que são wrapper?
+O bjetos que vão encapsular os tipos primitivos
+
+Como é criado um wrapper?
+Basta começa o nome do tipo primitivo e começar com letra maiúscula,
+com duas exceções, o int e o char
+O int para virar um wrapper nomeia com Integer
+o char para vira um wrapper nomeia com Character
+
+Quando se trabalha com wrapper, os valores são trabalhados com com polimorfismo
+nos tipos primitivos são os tamanhos que podem colocar na memória
+
+Boas praticas:
+Se consegue usar tipo primitivo, vai de tipo primitivo
+só utiliza wrapper quando preciso nas situações que pedem wrapper
+que são as estruturas de dado do pacote de coleções
+e threads também precisa do objeto
+
+wrapper tem o mesmo nome dos tipos primitivos com exceção do int e char
+
+Dois conceitos importantes
+- autoboxing/boxing
+É quando tem o tipo primitivos e o java faz a conversão automática
+- unboxing
+Transformar um tipo wrapper em um tipo primitivo
+
+Se quiser transformar em um wrapper todas as classes tem um método estático que faz isso
+
+a classe Character tem vários métodos utilitários que vão ajudar muito

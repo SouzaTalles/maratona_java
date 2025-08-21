@@ -1,0 +1,14 @@
+String é imutável
+se não fizer uma nova associação, não é possível trocar o valor que existe
+
+Quando quiser comparar a referencia de um objeto usa o sinal "=="
+
+String constant pool
+é um local onde fica armazenado todas as strings criadas
+não é possível alterar o valor de uma string que tá no pool de string
+
+tirar da primeira aula:
+Strings são imutáveis,
+sempre tomar cuidado associando um novo valor a variável de referencia
+
+
