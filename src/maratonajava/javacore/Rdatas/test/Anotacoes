@@ -1,0 +1,5 @@
+O date trabalha em milissegundos (long d 100000) e representa desde 1 de janeiro de 1970
+a maioria dos métodos são obsoletos
+A classe Date não é mais utilizada.
+
+Trabalhar com as classes date e calendar em sistemas legados

@@ -16,5 +16,7 @@ public class StringTest02 {
         System.out.println(numeros.substring(3, numeros.length())); // numero escolhido até o final
 
         System.out.println(nome.trim()); // remove os valores em branco do começo e do fim da string
+
+
     }
 }

@@ -11,4 +11,17 @@ tirar da primeira aula:
 Strings são imutáveis,
 sempre tomar cuidado associando um novo valor a variável de referencia
 
+A classe String quando tem que trabalhar com números muitos grande ele perde totalmente a performance,
+dessa forma foi criada algumas classes para resolver isso, que são elas, a StringBuilder e a StringBuffer,
+a StringBuilder tem uma performance melhor, a StringBuffer é mais usada quando se ta trabalhando com Thread
 
+Quando se deve utilizar String, StringBuilder ou StringBuffer:
+as regras de negócios que vão dizer se será necessário utilizar StringBuilder ou StringBuffer,
+a maioria das vezes será utilizado String
+
+quando tá se trabalhando com StringBuilder, não tem mais o conceito de string imutável
+Para trabalhar diretamente com a String que tem em memória, o retorno precisa ser o mesmo
+
+Quando se trabalha com String, toda vez você está criando uma nova string no pool de string
+mas quando se trabalha com StringBuilder ou StringBuffer, você trabalha diretamente com a string diretamente dentro da memória
+e tomar cuidado com método pra saber se ele retorna string ou StringBuilder, para ver se estar alterando o valor do objeto
