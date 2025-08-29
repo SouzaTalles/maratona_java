@@ -1,0 +1,7 @@
+Duration = horas
+Period = datas
+Instante = nanosegundos
+LocalDate = datas para humanos
+LocalDateTime = data e hora para homanos
+LocalTime = hora para humanos
+ChronoUnit = Cálculo de diferenças entre datas/tempos
