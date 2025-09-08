@@ -5,3 +5,12 @@ LocalDate = datas para humanos
 LocalDateTime = data e hora para homanos
 LocalTime = hora para humanos
 ChronoUnit = Cálculo de diferenças entre datas/tempos
+
+
+Resumo das classes e usos nesta aula conforme entendi:
+
+- ZoneDatedTime - Classe para manipular fusos horários com as classes de tempo que estudamos, como Instant e LocalDate;
+- ZoneId - Classe que nos retorna lista de Map dos Zone IDs e suas siglas;
+- ZoneOffset - Guardar o deslocamento UTC (UTC offset);
+- OffSetDateTime - Classe que utilizamos o UTC offset para nos retornar o horário equivalente no fuso horário de referência;
+- JapaneseDate - Converter calendário gregoriano para japonês;
