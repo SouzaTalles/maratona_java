@@ -1,0 +1,8 @@
+// \d = Todos os dígitos
+// \D = Tudo o que não for dígito
+// \s = Espaços em branco \t \n \f \r
+// \S = Todos os caracteres excluindo os brancos
+// \w = a-zA-Z, dígitos, _
+// \W = Tudo o que não for incluso no \w
+// [] O que tem dentro é considerado um range de caracteres, ele vai procurar o que tem dentro dos colchetes
+// [a-z] assim pega todas as minúsculas de 'a' até 'z'
