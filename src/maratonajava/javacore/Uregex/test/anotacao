@@ -6,3 +6,17 @@
 // \W = Tudo o que não for incluso no \w
 // [] O que tem dentro é considerado um range de caracteres, ele vai procurar o que tem dentro dos colchetes
 // [a-z] assim pega todas as minúsculas de 'a' até 'z'
+// EX :String regex = "[a-zA-C]";
+
+// ? zero ou uma
+// * zero ou mais
+// + uma ou mais
+//{n,m} de n até m
+// () agrupamento
+// | ou
+// EX: o(v|c)o == ovo | oco
+// $ fim da linha
+// . 1.3 = 123, 133, 1@3, 1A3
+// ^ inicio da linha ou negação quando ta entre []
+
+// https://regexr.com/ site para facilitar as expressões regulares
