@@ -1,0 +1,4 @@
+File é a classe mais básica de arquivos, quando se ta criando uma objeto do tipo file
+é preciso passar o pathname, tem duas opções:
+- se quiser criar onde o programa ta sendo executado só é preciso passar o nome
+- se quiser criar em um lugar especifico, tem que passar o caminho absoluto.
