@@ -9,9 +9,9 @@ public class BufferFileReaderTest01 {
     public static void main(String[] args)  {
         File file = new File("file.txt");
         try (FileReader fr = new FileReader(file);
-             BufferedReader bw = new BufferedReader(fr)) {
+             BufferedReader br = new BufferedReader(fr)) {
             String line;
-            while ((line = bw.readLine()) != null) {
+            while ((line = br.readLine()) != null) {
                 System.out.println(line);
             }
 
