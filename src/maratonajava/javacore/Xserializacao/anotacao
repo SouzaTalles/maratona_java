@@ -1,0 +1,2 @@
+quando o objeto e serializado e tem um atributo tipo a senha que você não
+quer serializar é usado a palavra reservada "transient"
