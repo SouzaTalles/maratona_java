@@ -1,0 +1,13 @@
+existem dois tipos de coloção:
+- ordenada (Ordered): Quando o java lembra da ordem;
+- sortidos (Sorted): Quando você define como os objetos vão ser guardados.
+
+Quando se trabalha com coleções tem se o cuidado com a complexidade Big-O
+e cada coleção tem um tipo de complexidade para a coleção
+
+Site para olhar a complexidade Big-O
+- https://stackoverflow.com/questions/559839/big-o-summary-for-java-collections-framework-implementations
+- https://gist.github.com/FedericoPonzi/8d5094dbae33cbb94536a73f62d1c1a0
+- https://borg-net.cc/posts/java-collections-big-o
+- https://medium.com/@omkarbhavare2406/delving-into-big-o-notation-the-foundation-of-algorithm-analysis-3329816d7133
+- https://www.cl.cam.ac.uk/teaching/1819/OOProg/complexity.pdf
