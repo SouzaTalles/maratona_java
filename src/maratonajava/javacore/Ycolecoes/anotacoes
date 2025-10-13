@@ -11,3 +11,8 @@ Site para olhar a complexidade Big-O
 - https://borg-net.cc/posts/java-collections-big-o
 - https://medium.com/@omkarbhavare2406/delving-into-big-o-notation-the-foundation-of-algorithm-analysis-3329816d7133
 - https://www.cl.cam.ac.uk/teaching/1819/OOProg/complexity.pdf
+
+* List é coleção ordenada
+
+Coleções não aceitam tipo primitivo;
+
