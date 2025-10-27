@@ -40,9 +40,9 @@ public class Manga implements Comparable<Manga> {
         // negativo se o this < outroManga
         // se this == outroManga, return 0
         // positivo se this > outroManga
-//        if (this.id < outroManga.id) {
+//        if (this.id < outroManga.getId()) {
 //            return -1;
-//        } else if (this.id.equals(outroManga.id)) {
+//        } else if (this.id.equals(outroManga.getId())) {
 //            return 0;
 //        } else {
 //            return 1;
