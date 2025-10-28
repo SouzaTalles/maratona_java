@@ -3,6 +3,7 @@ package maratonajava.javacore.Ycolecoes.test;
 import maratonajava.javacore.Ycolecoes.dominio.Manga;
 
 import java.util.HashSet;
+import java.util.LinkedHashSet;
 import java.util.Set;
 
 public class SetTest01 {
@@ -17,6 +18,9 @@ public class SetTest01 {
         for (Manga manga : mangas) {
             System.out.println(manga);
         }
+
+        // HashSet: Não mantém a ordem de que foi colocada e não pode repetição
+        // LinkedHashSet: não pode repetição e mantém a ordem que foi colocado cada elemento
 
     }
 }
