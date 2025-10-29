@@ -64,5 +64,4 @@ public class NavigableSetTest01 {
         System.out.println(mangas.pollLast());
         System.out.println(mangas.size());
     }
-
 }

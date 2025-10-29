@@ -53,3 +53,5 @@ O TreeSet vai fazer a organização dos elementos através do método compareTo
 utiliza o TreeSet quando a classe que está criando a coleção implementa Comparable ou caso ter certeza criando um comparator
 e lembrar que o TreeSet vai reordenar a lista quando for adicionado outro elemento baseado no valor do compareTo ou no compare
 não aceita elementos duplicados.
+
+no Set quando o valor é repetido ele ignora, mas no Map ele sobrescreve o valor
