@@ -1,0 +1,21 @@
+em wildcard
+
+Regra prática (famosa regra PECS):
+PECS = Producer Extends, Consumer Super
+- Se o método produz objetos → use extends
+- Se o método consome objetos → use super
+
+Dica para memorizar
+PECS → Producer Extends, Consumer Super
+- Se o método pega dados da lista → extends
+- Se o método coloca dados na lista → super
+
+Conclusão
++ Use ? extends quando:
+- Você precisa apenas ler os elementos;
+- Não importa o tipo exato da subclasse;
+- O método não adiciona nada à coleção.
++ Use ? super quando:
+- Você precisa adicionar elementos;
+- O método atua como destino de dados;
+- Não importa se a lista é de Animal ou Object, contanto que aceite o tipo base.
