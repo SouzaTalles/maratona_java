@@ -3,6 +3,7 @@ package maratonajava.javacore.ZZAclassesinternas.test;
 public class OuterClassesTest01 {
     private String name = "Monkei D. Luffy";
 
+    // Nested
     class Inner {
         public void printOuterClassAtrribute() {
             System.out.println("Name: " + name);
