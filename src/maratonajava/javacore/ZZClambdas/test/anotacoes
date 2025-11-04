@@ -1,0 +1,11 @@
+- 1º regra
+para lambidas funcionarem elas precisar que a interface usado seja funcional
+uma interface funcional é onde tem apenas um método abstrato
+
+- 2º regra
+(parametro) -> <expressão>
+Car car) -> car.getColor.equals("green");
+
+- O próprio método da classe funcional diz como a lambida vai funcionar
+
+- anonimas, funções, conciso
