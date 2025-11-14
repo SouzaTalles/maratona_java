@@ -1,0 +1,19 @@
+Quando se deve utilizar o parallel Stream e quando não utilizar:
+
+- Benchmark
+- Unboxing | boxing
+- (limit, findFirst):ruim (findAny):bom
+- Custo total da computação N, P
+- Quantidade de dados
+- Tipos de coleções
+- Tamanho do stream (tamanho definido)
+- Processamento merge
+
+if(tarefa for pequena e não pode ser dividida) {
+faz sequencialmente
+} else {
+divide em duas tarefas
+chama o método recursivamente
+espera todas as tarefas serem completadas
+combina o resultado
+}

@@ -32,8 +32,7 @@ public class StreamTest13 {
         // map<Category>, Map<Promotion, List<LightNovel>>>
         Map<Category, Map<Promotion, List<LightNovel>>> collect1 = lightNovels
                 .stream()
-                .collect(groupingBy(LightNovel::getCategory,
-                        groupingBy(StreamTest13::getPromotion)));
+                .collect(groupingBy(LightNovel::getCategory, groupingBy(StreamTest13::getPromotion)));
         System.out.println(collect1);
     }
 
