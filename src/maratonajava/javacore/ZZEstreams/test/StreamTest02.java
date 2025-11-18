@@ -5,12 +5,10 @@ import maratonajava.javacore.ZZEstreams.dominio.LightNovel;
 import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.List;
-import java.util.stream.Collector;
-import java.util.stream.Collectors;
 
 //1. Order LightNovel by title
 //2. Retrieve the first 3 titles light novels with price less than 4
-public class StreamsTest02 {
+public class StreamTest02 {
     private static List<LightNovel> lightNovels = new ArrayList<>(List.of(
             new LightNovel("Tensei Shittara", 8.99),
             new LightNovel("Overlord", 3.99),

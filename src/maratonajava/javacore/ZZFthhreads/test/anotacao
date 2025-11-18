@@ -1,0 +1,5 @@
+/*  ESTADOS
+                Waiting/Blocked
+                ↓             ↑
+                ↓             ↑
+       New → Runnable ← → Running → Dead

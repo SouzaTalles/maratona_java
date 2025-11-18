@@ -8,7 +8,7 @@ import java.util.List;
 
 //1. Order LightNovel by title
 //2. Retrieve the first 3 titles light novels with price less than 4
-public class StreamsTest01 {
+public class StreamTest01 {
     private static List<LightNovel> lightNovels = new ArrayList<>(List.of(
             new LightNovel("Tensei Shittara", 8.99),
             new LightNovel("Overlord", 3.99),
