@@ -1,0 +1,7 @@
+docker ps
+docker ps -a
+docker volume ls
+
+docker-compose up
+ctrl + c
+docker-compose down
