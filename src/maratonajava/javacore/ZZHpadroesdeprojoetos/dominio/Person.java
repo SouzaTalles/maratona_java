@@ -60,5 +60,10 @@ public class Person {
         public Person build() {
             return new Person(firstName, lastName, userName, email);
         }
+
+    }
+
+    public String getFirstName() {
+        return firstName;
     }
 }
