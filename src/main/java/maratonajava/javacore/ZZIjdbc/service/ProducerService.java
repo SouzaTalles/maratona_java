@@ -3,6 +3,8 @@ package maratonajava.javacore.ZZIjdbc.service;
 import maratonajava.javacore.ZZIjdbc.dominio.Producer;
 import maratonajava.javacore.ZZIjdbc.repository.ProducerRepository;
 
+import java.util.List;
+
 public class ProducerService {
 
     public static void seve(Producer producer) {
@@ -17,6 +19,10 @@ public class ProducerService {
     public static void update(Producer producer) {
         requireValidId(producer.getId());
         ProducerRepository.update(producer);
+    }
+
+    public static List<Producer> findAll() {
+        return ProducerRepository.findAll();
     }
 
     private static void requireValidId(Integer id) {
