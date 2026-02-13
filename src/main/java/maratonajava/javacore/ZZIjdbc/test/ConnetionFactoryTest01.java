@@ -17,6 +17,8 @@ public class ConnetionFactoryTest01 {
 //        List<Producer> producers = ProducerService.findAll();
 //        List<Producer> producers = ProducerService.findByName("Mad");
 //        log.info("Producers found '{}'", producers);
-        ProducerService.showProducerMetaData();
+//        ProducerService.showProducerMetaData();
+//        ProducerService.showDriveMetaData();
+        ProducerService.showTypeScrollWorking();
     }
 }
